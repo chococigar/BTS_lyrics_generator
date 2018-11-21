@@ -1,0 +1,19 @@
+{
+  "name": "bts_lyrics_generator",
+  "version": "1.0.0",
+  "description": "colossal-markov ===============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chococigar/BTS_lyrics_generator.git"
+  },
+  "author": "Jiyoun Ha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chococigar/BTS_lyrics_generator/issues"
+  },
+  "homepage": "https://github.com/chococigar/BTS_lyrics_generator#readme"
+}
