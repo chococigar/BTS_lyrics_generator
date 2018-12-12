@@ -10,6 +10,7 @@
 </template>
 
 <script>
+
   export default {
     name: 'helloarmy',
     data: function(){
@@ -19,12 +20,17 @@
     },
     methods:{
       addMessage(){
-        console.log(this.userInput)
-        this.$router.push('/lyricsgen');
+        this.$router.push({
+          path: '/lyricsgen',
+          query: {user: this.userInput}
+        });
       }
     },
     props: {
-      msg: String
+      userName: {
+        type: String,
+        default: 'User'
+      }
     }
   }
 </script>
