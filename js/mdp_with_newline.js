@@ -95,7 +95,8 @@ var newline_lyrics = function(l_array, min = 1, max = 6) {
 }
 
 var generate_lyrics = function(curr, probDict, T = 200) {
-    lyrics = [curr];
+    var lyrics = [curr];
+    //CHANGED FROM lyrics = [curr];
     for (var t in Array.from({
             length: T
         }, (x, i) => i)) {
@@ -105,11 +106,12 @@ var generate_lyrics = function(curr, probDict, T = 200) {
     //return newline_lyrics(lyrics);
 }
 
-var show_lyrics = function() {
+var show_lyrics = function(lpdict) {
     var startWord = "지윤";
-    var lyrics = generate_lyrics(startWord, lyricsProbDict, 12);
-    console.log(lyrics);
+    var lyrics = generate_lyrics(startWord, lpdict, 12);
+    console.log("lyrics is : ", lyrics);
     $('#lyricsbox').html(lyrics);
+    return lyrics;
 }
 
 function get_file(path, callback) {
@@ -130,21 +132,43 @@ function get_file(path, callback) {
 }
 
 //no need to make lyrics prob dict all the time. 
+console.log("now in : ", window.location.pathname);
+console.log("inside javascript : ", window.location.href);
 
-get_file("./data/bts.txt")
+//'../../data/bts.txt'
+//get_file("../../data/bts.txt")
+// "./"하면 lyricsgen, 바로 하면 localhost:8080
+
+//require('./../data/bts.txt')
+/*
+get_file("@/assets/btslyrics.txt")
     .then(function(data) {
-
-        console.log(data);
-        lyricsProbDict = make_dicts(data);
-        console.log(lyricsProbDict);
-        $('#refresh').on('click', function() {
+        //lyricsProbDict = make_dicts(data);
+        $.getJSON("./data/testdict.json", function(lyricsProbDict) {
+            console.log(lyricsProbDict);
+            $('#refresh').on('click', function() {
+                setRandomBackground();
+                show_lyrics(lyricsProbDict);
+            });
             setRandomBackground();
-            show_lyrics();
+            show_lyrics(lyricsProbDict);
         });
-        setRandomBackground();
-        show_lyrics();
-
     })
     .catch(function(xhr) {
         console.log("error");
     });
+    */
+import $ from 'jquery'
+var data = 'Time travel 2006년의 해\
+춤에 미쳐\
+엄마 허리띠를 졸라맸지\
+아빠 반대에도 매일 달려들 때\
+아랑곳하지 않고\
+띄워주신 꿈의 조각배'
+var lyricsProbDict = make_dicts(data);
+$('#refresh').on('click', function() {
+    setRandomBackground();
+    var lyrics = show_lyrics(lyricsProbDict);
+});
+setRandomBackground();
+var lyrics = show_lyrics(lyricsProbDict);
