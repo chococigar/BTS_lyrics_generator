@@ -5,7 +5,8 @@ import random, re, os
 # freqDict is a dict of dict containing frequencies
 def addToDict(fileName, freqDict):
 	f = open(fileName, 'r', errors='ignore')
-	words = re.sub("\n", " \n", f.read()).lower().split(' ')
+	#words = re.sub("\n", " \n", f.read()).lower().split(' ')
+	words = re.sub("\n", " ", f.read()).lower().split(' ')
 
 	# count frequencies curr -> succ
 	for curr, succ in zip(words[1:], words[:-1]):
@@ -49,15 +50,17 @@ def generateLyrics(curr, probDict, T = 40):
 
 if __name__ == '__main__':
 	lyricsFreqDict = {}
-	lyrics_dir = './../data/bts.txt'
+	#lyrics_dir = './../data/bts.txt'
 	#for lyrics in os.listdir(lyrics_dir):
 	#	lyricsProbDict = addToDict(lyrics_dir+"/"+lyrics, lyricsFreqDict)
 
-	lyricsProbDict = addToDict('./../data/bts.txt', lyricsFreqDict)
+	#lyricsProbDict = addToDict('./../data/bts.txt', lyricsFreqDict)
+	lyricsProbDict = addToDict('./../../BTS_lyrics/boy_meets_evil.txt', lyricsFreqDict)
 
 	import json
 
-	with open('orig_dict.json', 'w') as fp:
+	#with open('orig_dict.json', 'w') as fp:
+	with open('boy_meets_evil_freq.json', 'w') as fp:
 	    json.dump(lyricsProbDict, fp, ensure_ascii=False)
 
 	startWord = input("What do you want to start your lyrics with?\n > ")

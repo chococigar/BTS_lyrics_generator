@@ -1,0 +1,1290 @@
+{
+    "우린": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "꿈을": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "멈춰서도": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 1,
+        "e": 0
+    },
+    "괜찮아": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 1
+    },
+    "아무": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 1,
+        "e": 0
+    },
+    "이유도": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "모르는": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "채": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "달릴": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "필요": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "없어": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 1
+    },
+    "꿈이": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "없어도": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "잠시": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 1,
+        "e": 0
+    },
+    "행복을": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "느낄": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "네": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "순간들이": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "있다면": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 1
+    },
+    "이젠": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 1,
+        "e": 0
+    },
+    "목적도": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "달리지": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "않아": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 1
+    },
+    "네가": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 1,
+        "e": 0
+    },
+    "내뱉는": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "모든": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "호흡은": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 0
+    },
+    "이미": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "낙원에": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["v", "tae"],
+        "s": 0,
+        "e": 1
+    },
+    "남한테서": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "꿔": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "(빚처럼)": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 1
+    },
+    "위대해져야": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "한다": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "배워": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "(빛처럼)": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 1
+    },
+    "너의": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "dream.": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "사실은": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "짐": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 1
+    },
+    "미래만이": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "꿈이라면": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 1
+    },
+    "내가": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "어젯밤": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "침대서": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "꾼": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "건": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "뭐": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "꿈의": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "이름이": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "달라도": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "다음달에": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "노트북": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "사는": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "거": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 1
+    },
+    "아니면": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "그냥": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "먹고": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "자는": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "암것도": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "안": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "하는데": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "돈이": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "많은": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "거창한": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "거라고": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 1
+    },
+    "아무나": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "되라고": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 1
+    },
+    "We": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 1,
+        "e": 0
+    },
+    "deserve": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "a": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 0
+    },
+    "life": {
+        "t": "bst",
+        "a": "wings",
+        "v": ["rm"],
+        "s": 0,
+        "e": 1
+    },
+    "어두워져": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "가": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "내": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "미래의": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "빛": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "치기": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "어린": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "사랑에": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "잃은": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "길": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "야망의": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "독기": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "매일": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "칼을": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "갈았지": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "But": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "참을": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "수": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "없는": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "욕심에": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "칼은": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "무뎌져": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "알고": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "있어": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "다": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "이": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "사랑은": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "악마의": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "또": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "다른": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "이름": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "손을": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "잡지": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "마": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "외쳤지만": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "저버렸지": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "양심을": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "날이": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "갈수록": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "느끼는": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "날카로운": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "현실들": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "현실에": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "찢겨": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "붉게": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "묻은": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "피들": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "생각": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "못했지": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "그": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "욕심이": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "지옥을": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "부르는": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "나팔이": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "될": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "지는": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "Breathe": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 1
+    },
+    "숨이": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "차오르고": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "뒤틀린": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "눈": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "감는": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "밤": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "울리는": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "비극의": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "오르골": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "죄를": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "벗기엔": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "그걸": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "잊는": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "게": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "당최": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "포기가": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "안돼": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "입술이": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "너무": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "달콤했기에": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "연애에": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "취해서": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "버려진": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "미래": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "깨어나고": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "볼": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "땐": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "사방엔": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "지뢰": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "건드릴": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "매서운": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "주위의": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "시선들": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "기적을": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "외쳐": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "(Rewind)": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 1
+    },
+    "미치도록": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "좋았지": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "달콤함에": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "중독된": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "병신": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "그래": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "놓치긴": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "싫었어": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "손길을": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "Too": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "bad": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "but": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "it’s": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "too": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "sweet": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "It’s": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    },
+    "sweet,": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 0
+    },
+    "evil": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 0,
+        "e": 1
+    },
+    "Yeah,": {
+        "t": "Boy_meets_evil",
+        "a": "Wings",
+        "v": ["jhope"],
+        "s": 1,
+        "e": 0
+    }
+}

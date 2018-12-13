@@ -46,7 +46,6 @@
           for (var succ in succProbs) {
               currProb += succProbs[succ];
               if (randProb <= currProb) return succ;
-
               return keys[Math.floor(Math.random() * keys.length)];
           }
       }
@@ -68,18 +67,23 @@
       return out_lyrics;
   }
 
-  var generate_lyrics = function(curr, probDict, T = 200) {
+  var generate_lyrics = function(curr, probDict, T = 200, detail) {
       var lyrics = [curr];
       for (var t in Array.from({
               length: T
           }, (x, i) => i)) {
-          lyrics.push(markov_next(lyrics[-1], probDict));
+          var next_word = markov_next(lyrics[-1], probDict);
+          console.log(next_word);
+          lyrics.push(next_word);
+          console.log(detail[next_word]);
+          console.log(detail[next_word]['t']);
       }
+
       return lyrics.join(' ');
   }
 
-  var show_lyrics = function(lpdict, startWord) {
-      var lyrics = generate_lyrics(startWord, lpdict, 12);
+  var show_lyrics = function(lpdict, startWord, detail) {
+      var lyrics = generate_lyrics(startWord, lpdict, 12, detail);
       console.log("lyrics is : ", lyrics);
       return lyrics;
   }
@@ -89,7 +93,11 @@
 
 
   import $ from 'jquery'
-  import lyricsProbDict from './../assets/testdict.json'
+  //import lyricsProbDict from './../assets/testdict.json'
+  import lyricsProbDict from './../../python/boy_meets_evil_freq.json'
+  import words_detail from './../../python/words_detail.json'
+  console.log(words_detail);
+  console.log("asdf");
   setRandomBackground();
 
   export default {
@@ -100,13 +108,12 @@
       }
     },
     mounted() {
-      console.log(this.$route.query.user);
-      this.generated_lyrics=show_lyrics(lyricsProbDict, this.$route.query.user);
+      this.generated_lyrics=show_lyrics(lyricsProbDict, this.$route.query.user, words_detail);
     },
     methods: {
       updateLyrics: function(){
         setRandomBackground();
-        this.generated_lyrics = show_lyrics(lyricsProbDict, this.$route.query.user);
+        this.generated_lyrics = show_lyrics(lyricsProbDict, this.$route.query.user, words_detail);
       }
     }
   }
