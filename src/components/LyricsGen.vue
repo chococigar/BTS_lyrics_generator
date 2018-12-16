@@ -18,9 +18,6 @@
 </template>
 
 <script>
-
-  console.log("sup");
-
   var backgroundColors = [
       '#0080ff',
       '#ffbf00',
@@ -35,7 +32,7 @@
       $('body').css('background-color', bgcolor);
   }
 
-  var markov_next = function(curr, probDict) {
+  var markov_next = function(curr, probDict, detail) {
       var keys = Object.keys(probDict);
       if (!(probDict.hasOwnProperty(curr))) {
           return keys[Math.floor(Math.random() * keys.length)];
@@ -72,11 +69,13 @@
       for (var t in Array.from({
               length: T
           }, (x, i) => i)) {
-          var next_word = markov_next(lyrics[-1], probDict);
+          var next_word = markov_next(lyrics[-1], probDict, detail);
+          //console.log("next word : ", next_word);
+          lyrics.push(next_word);;
           console.log(next_word);
-          lyrics.push(next_word);
-          console.log(detail[next_word]);
           console.log(detail[next_word]['t']);
+          console.log(detail[next_word]['s']);
+          console.log(detail[next_word]['e']);
       }
 
       return lyrics.join(' ');
@@ -89,15 +88,10 @@
   }
 
   import HelloArmy from '../components/HelloArmy.vue';
-  console.log("imported data : " , HelloArmy.data());
-
-
   import $ from 'jquery'
   //import lyricsProbDict from './../assets/testdict.json'
-  import lyricsProbDict from './../../python/boy_meets_evil_freq.json'
-  import words_detail from './../../python/words_detail.json'
-  console.log(words_detail);
-  console.log("asdf");
+  import lyricsProbDict from './../../python/Wings.json'
+  import words_detail from './../../python/wings_detail.json'
   setRandomBackground();
 
   export default {
