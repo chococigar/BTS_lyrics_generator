@@ -1,11 +1,13 @@
 <template>
   <div class="helloarmy">
-    <p>반가워요 Army</p>
-    <p>당신의 이름은 무엇인가요?</p>
-    <br>
-    <p>HELLO BTS ARMY</p>
-    <p>WHAT IS YOUR NAME?</p>
-    <input id='userName' @keyup.enter="addMessage" v-model="userInput" type="text">
+    <div class="kor ques">
+      <p>반가워요 BTS 아미</p>
+      <p>당신의 이름은 무엇인가요?</p></div>
+    <div class="eng ques">
+      <p>HELLO BTS ARMY</p>
+      <p>WHAT IS YOUR NAME?</p></div>
+    <input id='userName' @keyup.enter="addMessage" v-model="userInput" placeholder="이름을 적어주세요" type="text">
+
   </div>
 </template>
 
@@ -37,18 +39,26 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.helloarmy{
+  font-family: 'Typo_SsangmunDong';
+  text-align: left;
+  padding-left:172px;
+  font-size:30px;
+  margin-top:180px;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+input{
+    border:none;
+    border-bottom: 2px #D3D3D3 solid;
+    color: #D3D3D3;
+    font-family: 'Typo_SsangmunDong';
+    font-size:30px;
+    margin:0px;
+    padding:0px;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+.ques{
+  margin-bottom:40px;
 }
-a {
-  color: #42b983;
-}
+
 </style>

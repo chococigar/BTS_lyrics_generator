@@ -1,12 +1,7 @@
 <template>
   <div class="lyricsgen">
-     <div id="mainnav" class="row">
-          <ul style="order:0"><a>BTS Lyrics generator</a></ul>
-          <ul style="order:1"><a>about</a></ul>
-          <ul style="order:2"><a>shop</a></ul>
-      </div>
       <div class="container">
-          {{ generated_lyrics }}
+          <div id="gen">{{ generated_lyrics }}</div>
           <ul class="buttonsbox">
               <button id="refresh" v-on:click='updateLyrics'>Nice!</button>
               <button id="refresh">Meh</button>
@@ -65,20 +60,27 @@
   }
 
   var generate_lyrics = function(curr, probDict, T = 200, detail) {
-      var lyrics = [curr];
+      //var lyrics = [curr];
+      var lyrics = curr+' ';
       for (var t in Array.from({
               length: T
           }, (x, i) => i)) {
           var next_word = markov_next(lyrics[-1], probDict, detail);
           //console.log("next word : ", next_word);
-          lyrics.push(next_word);;
+          
           console.log(next_word);
           console.log(detail[next_word]['t']);
           console.log(detail[next_word]['s']);
           console.log(detail[next_word]['e']);
+          var hasNewline = Math.floor(Math.random()*3);
+          console.log(hasNewline);
+          if (hasNewline==1) next_word+='\n';
+          else next_word+= ' ';
+          //lyrics.push(next_word);
+          lyrics += next_word;
       }
-
-      return lyrics.join(' ');
+      //return lyrics.join(' ');
+      return lyrics;
   }
 
   var show_lyrics = function(lpdict, startWord, detail) {
@@ -92,7 +94,7 @@
   //import lyricsProbDict from './../assets/testdict.json'
   import lyricsProbDict from './../../python/Wings.json'
   import words_detail from './../../python/wings_detail.json'
-  setRandomBackground();
+  //setRandomBackground();
 
   export default {
     name: 'lyricsgen',
@@ -106,7 +108,7 @@
     },
     methods: {
       updateLyrics: function(){
-        setRandomBackground();
+        //setRandomBackground();
         this.generated_lyrics = show_lyrics(lyricsProbDict, this.$route.query.user, words_detail);
       }
     }
@@ -115,6 +117,14 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+p.c {
+  white-space: pre;
+}
+.lyricsgen{
+  font-family: 'Typo_SsangmunDong';
+  text-align: left;
+  padding-left:172px;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -129,4 +139,9 @@ li {
 a {
   color: #42b983;
 }
+#gen{
+  font-size:40px;
+  white-space: pre;
+}
+
 </style>
